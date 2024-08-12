@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.yusufkutluay.tarifkitabim.BottomSheet.MyBottomSheetFragment
+import com.yusufkutluay.tarifkitabim.bottomSheet.MyBottomSheetFragment
 import com.yusufkutluay.tarifkitabim.databinding.RecyclerRowBinding
 import com.yusufkutluay.tarifkitabim.model.Singleton
 import com.yusufkutluay.tarifkitabim.model.Tarif

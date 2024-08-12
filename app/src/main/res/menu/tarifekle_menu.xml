@@ -18,10 +18,4 @@
         >
     </item>
 
-    <item
-        android:id="@+id/paylas"
-        android:title="Paylaş"
-        >
-    </item>
-
 </menu>

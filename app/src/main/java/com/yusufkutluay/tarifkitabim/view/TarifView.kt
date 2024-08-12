@@ -41,7 +41,6 @@ class TarifView : AppCompatActivity() {
     private lateinit var db: TarifDatabase
     private lateinit var tarifDao: TarifDao
     private var disposable = CompositeDisposable()
-    private val PERMISSION_REQUEST_CODE = 1
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -128,12 +127,7 @@ class TarifView : AppCompatActivity() {
                 builder.setCancelable(false)
                 builder.show()
                 true
-            }
-            R.id.paylas -> {
-
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
+            }else -> super.onOptionsItemSelected(item)
         }
     }
 
