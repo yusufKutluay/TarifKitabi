@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fav"
+        android:title="Favorile">
+
+    </item>
+    <item
+        android:id="@+id/duzenle"
+        android:title="Düzenle"
+        >
+    </item>
+
+    <item
+        android:id="@+id/sil"
+        android:title="Sil"
+        >
+    </item>
+
+    <item
+        android:id="@+id/paylas"
+        android:title="Paylaş"
+        >
+    </item>
+
+</menu>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TarifKitabim" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimaryDark">@color/color_app</item>
+    </style>
+
+    <style name="Theme.TarifKitabim" parent="Base.Theme.TarifKitabim" >
+
+    </style>
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen" >
+        
+        <item name="windowSplashScreenBackground">@color/color_app</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_tarifle</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.TarifKitabim</item>
+
+    </style>
+
+
+</resources>

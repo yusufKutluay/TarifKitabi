@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FF5733</color> <!-- Action bar rengi -->
+    <color name="colorPrimaryDark">#C70039</color> <!-- Status bar rengi -->
+    <color name="colorAccent">#FFC300</color> <!-- Vurgulama rengi -->
+    <color name="color_app">#E0DED4</color>
+
+    <color name="button_default">#FF6200EE</color> <!-- Normal durum -->
+    <color name="button_pressed">#FF3700B3</color> <!-- Basılı durum -->
+    <color name="button_selected">#FF03DAC5</color> <!-- Seçili durum -->
+    <color name="button_border">#FF6200EE</color> <!-- Kenar rengi -->
+</resources>

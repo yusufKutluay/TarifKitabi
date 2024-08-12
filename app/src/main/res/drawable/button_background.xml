@@ -1,0 +1,18 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Seçili durumda buton rengi -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#000000"/>
+            <corners android:radius="16dp"/>
+            <stroke android:width="2dp" android:color="@color/black"/>
+        </shape>
+    </item>
+    <!-- Normal durumda buton rengi -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#EDB272"/>
+            <corners android:radius="16dp"/>
+            <stroke android:width="2dp" android:color="#EDB272"/>
+        </shape>
+    </item>
+</selector>
